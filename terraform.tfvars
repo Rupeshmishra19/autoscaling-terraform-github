@@ -1,10 +1,10 @@
 create_vpc          = true
 create_ec2          = true
-create_s3           = false
+create_s3           = true
 create_autoscaling  = true
-ami_id              = "ami-0866a3c8686eaeeba"
-key_pair_name       = "rupa"
-s3_bucket_name      = "my-s3-bucket-78326767233"
+ami_id              = "ami-0e2c8caa4b6378d8c"
+key_pair_name       = "newkey"
+s3_bucket_name      = "my-s3-bucket-8298529335"
 vpc_cidr            = "10.0.0.0/16"
 subnet_cidr         = "10.0.1.0/24"
 availability_zone   = "us-east-1a"
